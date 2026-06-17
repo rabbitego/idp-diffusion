@@ -1,0 +1,12 @@
+{
+  "description": "Ablation arm: identical model, Ramachandran regulariser DISABLED",
+  "lambda_max": 0.0,
+  "lambda_anneal_steps": 50000,
+  "max_steps": 100000,
+  "batch_size": 32,
+  "lr": 2e-4,
+  "width": 384,
+  "depth": 6,
+  "num_diffusion_steps": 1000,
+  "esm_model": "esm2_t33_650M_UR50D"
+}

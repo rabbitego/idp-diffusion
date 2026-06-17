@@ -1,0 +1,21 @@
+# Core
+numpy>=1.24
+torch>=2.0          # the model, diffusion, and training; CUDA build recommended
+
+# Structure parsing (data prep + KDE build)
+biotite>=0.40       # multi-model PDB/mmCIF reading and backbone handling
+
+# Sequence embeddings
+fair-esm>=2.0.0     # ESM-2 / ESM-1b per-residue representations
+
+# Utilities
+tqdm>=4.65
+
+# Testing
+pytest>=7.0
+
+# --- External tools NOT installed via pip (document only) ---
+# SAXS forward model:    CRYSOL (ATSAS) or Pepsi-SAXS
+# NMR chemical shifts:   UCBShift or SPARTA+
+# Side-chain rebuild:    PULCHRA or SCWRL4   (if your forward model needs all-atom input)
+# Sequence clustering:   MMseqs2             (optional, for cluster-aware splits)
