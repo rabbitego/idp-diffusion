@@ -11,6 +11,12 @@ fair-esm>=2.0.0     # ESM-2 / ESM-1b per-residue representations
 # Utilities
 tqdm>=4.65
 
+# Dashboard
+streamlit>=1.30
+plotly>=5.18
+stmol>=0.0.9
+py3Dmol>=2.0.0
+
 # Testing
 pytest>=7.0
 
